@@ -2,8 +2,8 @@
 
 <div class="row">
     <div class="col-lg-12 text-center">
-        <h1>Hello World!</h1>
-        <p class="lead">This will be the landing page.</p>
+        <h1>Get Started</h1>
+        <p class="lead">This will tell you how to get started.</p>
     </div>
 </div>
 <!-- /.row -->

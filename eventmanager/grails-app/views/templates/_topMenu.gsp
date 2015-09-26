@@ -8,16 +8,26 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Event Manager</a>
+            <a class="navbar-brand" href="/welcome/index">Event Manager</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="#">About</a>
+                	<g:if test="${title == 'About'}">
+                    	<a style="color: white;" href="/welcome/about">About</a>
+                    </g:if>
+                    <g:else>
+                    	<a href="/welcome/about">About</a>
+                    </g:else>
                 </li>
                 <li>
-                    <a href="#">Get Started</a>
+                	<g:if test="${title == 'Get Started'}">
+                    	<a style="color: white;" href="/welcome/getstarted">Get Started</a>
+                    </g:if>
+                    <g:else>
+                    	<a href="/welcome/getstarted">Get Started</a>
+                    </g:else>
                 </li>
             </ul>
         </div>
