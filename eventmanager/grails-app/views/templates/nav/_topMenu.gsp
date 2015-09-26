@@ -14,20 +14,12 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                	<g:if test="${title == 'About'}">
-                    	<a style="color: white;" href="/welcome/about">About</a>
-                    </g:if>
-                    <g:else>
-                    	<a href="/welcome/about">About</a>
-                    </g:else>
+                	<g:render template="/templates/nav/link" 
+                	          model="['actual': title, 'expected': 'About', 'hrefTxt': '/welcome/about']" />
                 </li>
                 <li>
-                	<g:if test="${title == 'Get Started'}">
-                    	<a style="color: white;" href="/welcome/getstarted">Get Started</a>
-                    </g:if>
-                    <g:else>
-                    	<a href="/welcome/getstarted">Get Started</a>
-                    </g:else>
+                	<g:render template="/templates/nav/link" 
+                	          model="['actual': title, 'expected': 'Get Started', 'hrefTxt': '/welcome/getstarted']" />
                 </li>
             </ul>
         </div>

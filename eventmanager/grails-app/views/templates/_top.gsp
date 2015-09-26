@@ -6,7 +6,7 @@
 
 <body>
     <!-- Navigation -->
-    <g:render template="/templates/topMenu" />
+    <g:render template="/templates/nav/topMenu" />
 
     <!-- Page Content -->
     <div class="container">
