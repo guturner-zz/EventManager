@@ -21,6 +21,10 @@
                 	<g:render template="/templates/nav/link" 
                 	          model="['actual': title, 'expected': 'Get Started', 'hrefTxt': '/welcome/getstarted']" />
                 </li>
+                <li>
+                	<g:render template="/templates/nav/link" 
+                	          model="['actual': title, 'expected': 'Mongo PoC', 'hrefTxt': '/welcome/mongo']" />
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

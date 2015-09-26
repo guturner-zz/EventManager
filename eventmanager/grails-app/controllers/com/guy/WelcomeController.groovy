@@ -13,4 +13,8 @@ class WelcomeController {
     def getstarted() { 
     	render(view: "getstartedView", model: ['title': "Get Started"])
     }
+    
+    def mongo() {
+    	render(view: "mongoView", model: ['title': "Mongo PoC"])
+    }
 }
