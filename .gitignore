@@ -32,3 +32,6 @@
 # "temporary" build files
 /target
 /build/
+
+.project
+.classpath

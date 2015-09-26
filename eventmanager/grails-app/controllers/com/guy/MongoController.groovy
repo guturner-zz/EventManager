@@ -12,14 +12,14 @@ class MongoController {
 
 	@Autowired
 	private UserRepository repository
-	
-    def addUser() {
-    	repository.save(new User("User1", "user"))
-    	render(view: "/welcome/mongoView", model: ['title': "Mongo PoC", 'users': []])
-    }
-    
-    def viewUsers() {
-    	def users = repository.findByLastName("user")
-    	render(view: "/welcome/mongoView", model: ['title': "Mongo PoC", 'users': users])
-    }
+
+	def addUser() {
+		repository.save(new User("User1", "user"))
+		render(view: "/welcome/mongoView", model: ['title': "Mongo PoC", 'users': []])
+	}
+
+	def viewUsers() {
+		def users = repository.findByLastName("user")
+		render(view: "/welcome/mongoView", model: ['title': "Mongo PoC", 'users': users])
+	}
 }
