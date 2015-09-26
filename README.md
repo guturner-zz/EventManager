@@ -7,6 +7,11 @@ Demonstrates knowledge of:
 * Spring Boot
 * MongoDB
 
+# Pre-Work
+This project has some dependencies:
+* Install MongoDB (see [here](https://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/) for Windows installation notes)
+  * Before running 'Event Manager' ensure MongoDB is running via ```mongod --dbath <path to data directory>```
+
 # Running a Local Instance of 'Event Manager'
 1. Install [Grails 3](https://grails.org/download.html).
 2. Clone this project.
