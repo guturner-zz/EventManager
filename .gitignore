@@ -35,3 +35,6 @@
 
 .project
 .classpath
+
+# Other
+out/
