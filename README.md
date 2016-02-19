@@ -13,7 +13,7 @@ This project has some dependencies:
   * Before running 'Event Manager' ensure MongoDB is running via ```mongod --dbath <path to data directory>```
 
 # Running a Local Instance of 'Event Manager'
-1. Install [Grails 3](https://grails.org/download.html).
+1. Install [Grails 3.0.8](https://grails.org/download.html).
 2. Clone this project.
   * Navigate to the EventManager\eventmanager folder.
 3. Run ```grails run-app```
