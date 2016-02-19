@@ -7,6 +7,7 @@
     </div>
     <div class="col-lg-12 text-center">
     	<g:form controller="mongo">
+    	    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 	        <div class="col-lg-6">
 	        	<g:actionSubmit value="Add User" action="addUser" />
 	        </div>
